@@ -1,3 +1,6 @@
+[![Circle CI](https://circleci.com/gh/wealthsimple/big_decimal_inspect.svg?style=svg)](https://circleci.com/gh/wealthsimple/big_decimal_inspect)
+
+
 ### Before
 
 ```ruby
