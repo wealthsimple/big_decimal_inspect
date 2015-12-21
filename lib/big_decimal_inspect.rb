@@ -7,6 +7,6 @@ class BigDecimal
     else
       to_s('F')
     end
-    "#<BigDecimal:\"#{value}\">"
+    %{#<BigDecimal:"#{value}">}
   end
 end
