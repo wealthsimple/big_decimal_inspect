@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "big_decimal_inspect"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["Peter Graham"]
   gem.email         = ["peter@wealthsimple.com"]
-  gem.description   = %q{}
-  gem.summary       = %q{}
-  gem.homepage      = ""
+  gem.description   = %q{Makes BigDecimal#inspect output more readable}
+  gem.summary       = %q{Makes BigDecimal#inspect output more readable}
+  gem.homepage      = "https://github.com/wealthsimple/big_decimal_inspect"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
