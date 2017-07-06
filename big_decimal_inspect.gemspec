@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.version       = "0.0.2"
   gem.authors       = ["Peter Graham"]
   gem.email         = ["peter@wealthsimple.com"]
-  gem.description   = %q{Makes BigDecimal#inspect output more readable}
+  gem.description   = %q{Readable BigDecimal#inspect output}
   gem.summary       = %q{Makes BigDecimal#inspect output more readable}
   gem.homepage      = "https://github.com/wealthsimple/big_decimal_inspect"
 
@@ -15,6 +15,7 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+  gem.license       = "MIT"
 
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "rspec-its"
