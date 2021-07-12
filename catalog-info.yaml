@@ -1,0 +1,11 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: big_decimal_inspect
+  description: Readable BigDecimal#inspect output.
+  tags:
+    - ruby
+spec:
+  type: other
+  lifecycle: production
