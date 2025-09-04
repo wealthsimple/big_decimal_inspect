@@ -1,1 +1,8 @@
 * @wealthsimple/backend-platform
+
+# Devcontainer & docker compose
+compose*.yml @wealthsimple/devcontainer-maintainers @wealthsimple/backend-platform
+.devcontainer/* @wealthsimple/devcontainer-maintainers @wealthsimple/backend-platform
+.github/workflows/devcontainer.yml @wealthsimple/devcontainer-maintainers @wealthsimple/backend-platform
+.cursor/environment.json @wealthsimple/devcontainer-maintainers @wealthsimple/backend-platform
+.container-use/environment.json @wealthsimple/devcontainer-maintainers @wealthsimple/backend-platform
